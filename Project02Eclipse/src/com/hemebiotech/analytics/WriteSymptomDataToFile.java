@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Map;
 
 public class WriteSymptomDataToFile implements ISymptomWriter {
-	public String filepathWriteFile;
+	private String filepathWriteFile;
 
 	public WriteSymptomDataToFile(String filepath) {
 		this.filepathWriteFile = filepath;

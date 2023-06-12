@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class ReadSymptomDataFromFile implements ISymptomReader {
 
-	public String filepathReadFile;
+	private String filepathReadFile;
 
 	/**
 	 * 
