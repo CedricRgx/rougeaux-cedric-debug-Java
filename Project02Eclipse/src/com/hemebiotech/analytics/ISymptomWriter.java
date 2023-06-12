@@ -1,6 +1,5 @@
 package com.hemebiotech.analytics;
 
-import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -10,7 +9,6 @@ import java.util.Map;
  * 
  */
 public interface ISymptomWriter {
-	Map<String, Integer> symptoms = new HashMap<>();
 
 	/**
 	 * This method create a file filepathOut and write the symptoms and its
