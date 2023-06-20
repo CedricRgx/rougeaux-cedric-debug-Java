@@ -5,6 +5,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
+/**
+ * AnalyticsCounter is a class which is manipulate the list of symptoms (count
+ * and sort)
+ * 
+ */
 public class AnalyticsCounter {
 
 	/**
